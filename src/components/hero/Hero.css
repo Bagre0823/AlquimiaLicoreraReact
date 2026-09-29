@@ -1,0 +1,57 @@
+/* ================= HERO ================= */
+.hero {
+    height: 50vh;
+    /* height: 80vh; */
+    /* background: url('img/BannerBebidasArt2.png') center/cover no-repeat; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+ 
+.hero p {
+    margin-bottom: 15px;
+}
+
+/* ================= TEXTOS / BLOQUES DE CONTENIDO ================= */
+.sombra-texto {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+ 
+.bloque-texto {
+    flex: 2;                            /* ocupa más espacio */
+    min-width: 300px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;                          /* separación interna de los elementos */
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 25px 35px;                 /* espacio interno */
+    border-radius: 10px;                /* bordes redondeados */
+    border: 1px solid rgba(26, 25, 25, 0.4);
+}
+ 
+.bloque-texto h2 {
+    color: var(--color-texto);
+}
+ 
+.bloque-texto p {
+    color: var(--color-texto);
+    line-height: 1.5;                   /* espacio entre lineas */
+}
+ 
+/* FEATURES */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+    color: var(--color-texto);
+    justify-content: center;            /* centra horizontal */
+    align-items: center;                /* centra vertical (si hay altura) */
+}

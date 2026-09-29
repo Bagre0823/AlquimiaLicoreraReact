@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "texto": "Juan Pérez",
+    "icono": "fa-solid fa-user",
+    "tarea": "Gerente",
+    "mail":  "jperez@alquimia.com.ar"
+  },
+  {
+    "id": 2,
+    "texto": "María González",
+    "icono": "fa-solid fa-user",
+    "tarea": "Ventas",
+    "mail":  "mgonzalez@alquimia.com.ar"
+  },
+  {
+    "id": 3,
+    "texto": "Carlos López",
+    "icono": "fa-solid fa-user",
+    "tarea": "Logistica",
+    "mail":  "clopez@alquimia.com.ar"
+  }
+]

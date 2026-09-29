@@ -1,0 +1,100 @@
+.contacto {
+    width: 100%;
+    padding: 40px 80px;
+}
+
+.contacto-contenido {
+    display: flex;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =========================
+   FORMULARIO
+========================= */
+
+.contacto-form {
+    flex: 1;
+}
+
+.contacto-form h2 {
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    display: block;
+    margin-bottom: 25px;
+    color: var(--color-texto-suave);
+}
+
+.form-grupo {
+    margin-bottom: 15px;
+}
+
+.form-grupo input,
+.form-grupo textarea {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid var(--gris-medio);
+    border-radius: 5px;
+
+    font-family: inherit;
+}
+
+.form-grupo textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.btn-enviar {
+    padding: 10px 25px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--color-principal);
+    color: white;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   TESTIMONIOS
+========================= */
+
+.contacto-testimonios {
+    flex: 1;
+}
+
+.contacto-testimonios h3 {
+    margin-bottom: 20px;
+}
+
+.testimonio {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.testimonio span {
+    color: var(--color-principal);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .contacto {
+        padding: 30px 20px;
+    }
+
+    .contacto-contenido {
+        flex-direction: column;
+        gap: 40px;
+    }
+}

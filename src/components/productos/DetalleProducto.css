@@ -1,0 +1,90 @@
+/* ================= DETALLE PRODUCTO ================= */
+
+.detalle-producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+/* ================= IMAGEN ================= */
+
+.detalle-producto img {
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+    border-radius: 10px;
+
+    flex-shrink: 0;
+}
+
+/* ================= INFORMACION ================= */
+
+.detalle-producto-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 550px;
+
+    text-align: left;
+}
+
+/* Titulo */
+
+.detalle-producto-info h2 {
+    font-size: 26px;
+    margin: 0 0 10px;
+}
+
+/* Descripcion */
+
+.detalle-producto-info p {
+    font-size: 16px;
+    line-height: 1.6;
+
+    max-width: 550px;
+
+    margin: 0 0 12px;
+}
+
+/* Precio */
+
+.detalle-producto-info h3 {
+    font-size: 20px;
+    margin: 5px 0 15px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .detalle-producto {
+        flex-direction: column;
+
+        gap: 20px;
+
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .detalle-producto img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .detalle-producto-info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .detalle-producto-info p {
+        max-width: 90%;
+    }
+}

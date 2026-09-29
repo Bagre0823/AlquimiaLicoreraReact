@@ -1,0 +1,49 @@
+/* ================= BENEFICIOS ================= */
+
+.beneficios {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.beneficios-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.beneficio {
+    max-width: 250px;
+}
+
+.beneficio i {
+    font-size: 24px;
+    color: var(--color-principal);
+    margin-bottom: 6px;
+}
+
+.beneficio h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0 3px;
+}
+
+.beneficio p {
+    margin: 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .beneficios-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .beneficio {
+        width: 100%;
+        max-width: 350px;
+    }
+}

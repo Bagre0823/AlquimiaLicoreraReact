@@ -1,0 +1,152 @@
+/* ================= FORMULARIO PRODUCTO ================= */
+
+.formulario-producto {
+    width: 90%;
+    max-width: 600px;
+
+    margin: 35px auto;
+    padding: 30px;
+
+    background-color: #fff;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ================= TITULO ================= */
+
+.formulario-producto h3 {
+    text-align: center;
+
+    font-size: 26px;
+
+    margin: 0 0 25px;
+}
+
+
+/* ================= GRUPOS ================= */
+
+.formulario-producto div {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 15px;
+}
+
+
+/* ================= LABEL ================= */
+
+.formulario-producto label {
+    font-size: 15px;
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+
+/* ================= INPUTS ================= */
+
+.formulario-producto input,
+.formulario-producto textarea {
+    width: 100%;
+
+    padding: 10px 12px;
+
+    font-family: inherit;
+    font-size: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+
+/* Al seleccionar un campo */
+
+.formulario-producto input:focus,
+.formulario-producto textarea:focus {
+    border-color: var(--color-principal);
+}
+
+
+/* ================= TEXTAREA ================= */
+
+.formulario-producto textarea {
+    min-height: 100px;
+
+    resize: vertical;
+}
+
+
+/* ================= INPUT FILE ================= */
+
+.formulario-producto input[type="file"] {
+    padding: 8px;
+
+    background-color: #fafafa;
+}
+
+
+/* ================= BOTON ================= */
+
+.formulario-producto button {
+    display: block;
+
+    margin: 25px auto 0;
+
+    padding: 8px 15px;
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+
+    color: var(--color-principal);
+    background-color: transparent;
+
+    border: 1px solid var(--color-principal);
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Hover */
+
+.formulario-producto button:hover {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+
+/* Boton deshabilitado */
+
+.formulario-producto button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .formulario-producto {
+        width: 90%;
+
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .formulario-producto h3 {
+        font-size: 22px;
+    }
+
+}

@@ -1,0 +1,76 @@
+
+ /* Importar la fuente Montserrat para que funcione font-family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* ================= VARIABLES ================= */
+:root {
+    --color-principal: #f0a500;    /* color principal */
+    --color-secundario: #E99D7E;   /* color secundario */
+    --color-texto: #111;            /* texto oscuro */
+    --color-texto-suave: #555;      /* texto más claro */
+    --color-fondo: #FDFAFA;        /* fondo general */
+    --gris-medio: #949292;          /* gris intermedio */
+    --gris-oscuro: #333;            /* gris oscuro */
+    --color-oscuro: #4b4a4a;
+}
+ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--gris-oscuro);
+}
+
+/*---------------------------*/
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.app-layout {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+/* ================= BOTONES / LINKS ================= */
+.boton-link {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid var(--color-principal);
+    border-radius: 6px;
+    color: var(--color-principal);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-link:hover {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+.estado-carga,
+.estado-error {
+    padding: 30px 20px;
+    text-align: center;
+}

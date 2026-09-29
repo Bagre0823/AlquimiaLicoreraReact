@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Naranja",
+        "descripcion": "Vibrante...",
+        "precio": 200.99,
+        "imagen": "img/LicorNaranja2.png",
+        "descLarga": "licor de naranja es una bebida alcohólica dulce y aromática obtenida mediante la maceración o destilación de cáscaras de naranja en alcohol, combinada con un almíbar de azúcar."
+    },
+    {
+        "id": 2,
+        "nombre": "Limón",
+        "descripcion": "Refrescante...",
+        "precio": 250.99,
+        "imagen": "img/LicorLimon1.png",
+        "descLarga": "El licor de limón (conocido popularmente por su versión italiana, limoncello) es una bebida alcohólica dulce y refrescante obtenida mediante la maceración de cáscaras de limón en alcohol puro, la cual luego se mezcla con un almíbar de agua y azúcar."
+    },
+    {
+        "id": 3,
+        "nombre": "Manzana",
+        "descripcion": "Suave...",
+        "precio": 300.99,
+        "imagen": "img/LicorManzana.png",
+        "descLarga": "El licor de manzana es una bebida alcohólica dulce y aromática elaborada a partir del jugo, la infusión o la destilación de manzanas maceradas en un alcohol base."
+    },
+    {
+        "id": 4,
+        "nombre": "Pomelo",
+        "descripcion": "Intenso...",
+        "precio": 310.99,
+        "imagen": "img/LicorPomelo.png",
+        "descLarga": "El licor de pomelo es una bebida alcohólica dulce y refrescante obtenida mediante la maceración de cáscaras de pomelo (generalmente rosado o rojo) en alcohol, combinada con un almíbar de azúcar."
+    },
+    {
+        "id": 5,
+        "nombre": "Durazno",
+        "descripcion": "Dulce...",
+        "precio": 320.99,
+        "imagen": "img/LicorDurazno.png",
+        "descLarga": "El licor de durazno (también conocido como peach schnapps o crema de melocotón) es una bebida alcohólica dulce y aromática elaborada a partir de la maceración o destilación de duraznos maduros en una base de alcohol neutro."
+    },
+    {
+        "id": 6,
+        "nombre": "Mandarina",
+        "descripcion": "Aromático...",
+        "precio": 350.99,
+        "imagen": "img/LicorMandarina.png",
+        "descLarga": "El licor de mandarina es una bebida alcohólica dulce y aromática que destaca por su vibrante color anaranjado y su intenso perfume cítrico. Se elabora principalmente mediante la maceración de cortezas de mandarina."
+    }
+]

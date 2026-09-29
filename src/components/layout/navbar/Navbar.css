@@ -1,0 +1,47 @@
+.navbar-custom {
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* No permite que los botones bajen */
+  flex-wrap: nowrap;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 550;
+  color: var(--gris-oscuro);
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+
+  /* Evita que "QUIENES SOMOS" se corte */
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--color-principal);
+}
+
+@media (max-width: 768px) {
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "texto": "Excelente calidad, sabores increíbles.",
+        "estrellas": 5,
+        "nombre": "Juan P."
+    },
+    {
+        "id": 2,
+        "texto": "Se nota lo artesanal, muy recomendable.",
+        "estrellas": 5,
+        "nombre": "María G."
+    },
+    {
+        "id": 3,
+        "texto": "Ideal para regalar o disfrutar.",
+        "estrellas": 5,
+        "nombre": "Laura M."
+    }
+]

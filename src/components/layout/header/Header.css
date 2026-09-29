@@ -1,0 +1,78 @@
+.header-wrapper {
+    width: 100%;
+    background-color: #F8F4F4;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* Contenedor del logo y navbar */
+.header-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 8px 80px;
+}
+
+/* -------------------- */
+/* LOGO                 */
+/* -------------------- */
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-logo img {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+/* -------------------- */
+/* NAVBAR               */
+/* -------------------- */
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* -------------------- */
+/* LINEA INFERIOR       */
+/* -------------------- */
+
+.header-wrapper hr {
+    margin: 2px 0 0 0;
+    border: 0;
+    border-top: 2px solid #a8a7a7;
+}
+
+/* -------------------- */
+/* RESPONSIVE           */
+/* -------------------- */
+
+@media (max-width: 768px) {
+
+    .header-contenedor {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 20px;
+    }
+
+    .header-nav {
+        justify-content: center;
+    }
+}
