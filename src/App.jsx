@@ -14,12 +14,15 @@ const App = () => {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<Hero />} />
-        <Route path="/quienes-somos" element={<QuienesSomos />}/>
+        <Route path="/quienes-somos" element={<QuienesSomos />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/productos" element={<Productos />} />
         <Route path="/producto/:id" element={<DetalleProducto />} />
-        
-        <Route path="/productos/nuevo" element={<FormularioProductoContainer />}/>
+
+        <Route path="/productos/nuevo" element={<FormularioProductoContainer />} />
+
+        {/* CARRITO */}
+        <Route path="/carrito" element={<h1>Carrito de Compras</h1>}/>
       </Route>
     </Routes>
   );

@@ -30,6 +30,12 @@ function Navbar() {
                     </Link>
                 </li>
 
+                <li className="nav-item">
+                    <Link className="nav-link" to="/carrito">
+                        Carrito
+                    </Link>
+                </li>
+
             </ul>
         </nav>
     );
