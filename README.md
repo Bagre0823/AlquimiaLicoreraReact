@@ -2,7 +2,7 @@
 
 Proyecto realizado con React + Vite para presentar una marca de licores artesanales.
 Organizado con una estructura en Layout, Header y Footer.
-Incluye página de inicio, cproductos, detalle, contacto con testimonios y un layout común con encabezado y pie de página.
+Incluye página de inicio, productos, detalle, contacto con testimonios y un layout común con encabezado y pie de página.
 
 ## Tecnologías
 
